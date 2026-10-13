@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ee" />
+    <meta
+      name="description"
+      content="Presentasi Al-Islam dan Kemuhammadiyahan tentang MKCHM dan Kepribadian Muhammadiyah."
+    />
+    <title>MKCHM & Kepribadian Muhammadiyah — Presentasi AIK</title>
+
+    <!-- Tailwind CDN tetap tersedia; desain utama diatur terpisah di styles.css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+    <div class="reading-progress" aria-hidden="true">
+      <span id="reading-progress-bar"></span>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <nav class="nav-shell" aria-label="Navigasi utama">
+        <a
+          class="brand"
+          href="#hero"
+          aria-label="AIK Kelompok 6, kembali ke awal"
+        >
+          <span class="brand-mark">A<span>I</span>K</span>
+          <span class="brand-copy"
+            ><strong>AL-ISLAM & KEMUHAMMADIYAHAN</strong
+            ><small>Presentasi Kelompok 06</small></span
+          >
+        </a>
+
+        <div class="desktop-nav" id="desktop-nav">
+          <a class="nav-link" href="#pendahuluan">Pendahuluan</a>
+          <a class="nav-link" href="#visi">Visi</a>
+          <a class="nav-link" href="#sejarah">Sejarah</a>
+          <a class="nav-link" href="#digital">Era digital</a>
+          <a class="nav-link" href="#kesimpulan">Penutup</a>
+        </div>
+
+        <a class="nav-cta" href="#pendahuluan"
+          >Mulai membaca <span aria-hidden="true">↘</span></a
+        >
+        <button
+          class="menu-toggle"
+          id="mobile-menu-button"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+        >
+          <svg
+            class="menu-open-icon"
+            id="menu-icon-open"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg
+            class="menu-close-icon hidden"
+            id="menu-icon-close"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </nav>
+      <div class="mobile-nav hidden" id="mobile-nav">
+        <a class="mobile-nav-link" href="#pendahuluan">Pendahuluan</a>
+        <a class="mobile-nav-link" href="#visi">Visi Berkemajuan</a>
+        <a class="mobile-nav-link" href="#sejarah">Sejarah & Tokoh</a>
+        <a class="mobile-nav-link" href="#digital">Relevansi Era Digital</a>
+        <a class="mobile-nav-link" href="#kesimpulan">Kesimpulan</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- 01 / HERO -->
+      <section class="hero section-wrap" id="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span> Mata Kuliah AIK · Kelompok 06
+          </p>
+          <h1>Mengenal arah gerakan <em>Muhammadiyah</em> melalui MKCHM.</h1>
+          <p class="hero-lede">
+            Menelusuri keyakinan, cita-cita hidup, dan kepribadian
+            Muhammadiyah—serta bagaimana nilai-nilai itu menjadi pedoman dalam
+            menghadapi perubahan zaman.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pendahuluan"
+              >Jelajahi materi <span aria-hidden="true">→</span></a
+            >
+            <a class="text-link" href="#sejarah"
+              >Langsung ke sejarah <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="presenter-line">
+            <span class="presenter-label">Disusun oleh</span>
+            <p>
+              Sultan <span>·</span> Fatkhur <span>·</span> Marchelino
+              <span>·</span> Walid
+            </p>
+            <small>Universitas Muhammadiyah Gresik</small>
+          </div>
+        </div>
+
+        <aside class="hero-art reveal" aria-label="Ringkasan topik presentasi">
+          <div class="art-topline">
+            <span>PEDOMAN GERAKAN</span><span>01 / 06</span>
+          </div>
+          <div class="art-title">MK<span>&</span><br />CHM</div>
+          <div class="art-rule"><span></span></div>
+          <p class="art-description">
+            Matan Keyakinan dan Cita-Cita Hidup Muhammadiyah
+          </p>
+          <div class="art-bottom">
+            <div><small>LANDASAN</small><strong>Keyakinan</strong></div>
+            <div><small>ARAH</small><strong>Cita-cita</strong></div>
+            <div><small>WUJUD</small><strong>Pengamalan</strong></div>
+          </div>
+          <span class="art-index" aria-hidden="true">AIK—06</span>
+        </aside>
+        <div class="hero-footnote">
+          <span></span> Nilai yang hidup melalui tindakan nyata
+        </div>
+      </section>
+
+      <!-- 02 / PENDAHULUAN -->
+      <section class="section section-paper" id="pendahuluan">
+        <div class="section-wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span> 01 — Pendahuluan
+            </p>
+            <h2>Gerakan yang besar membutuhkan <em>arah yang jelas.</em></h2>
+            <p class="section-intro">
+              Muhammadiyah tidak hanya bergerak dalam dakwah, tetapi juga
+              mengambil peran dalam pendidikan, kesehatan, dan pelayanan sosial.
+              MKCHM membantu menjelaskan landasan keyakinan serta cita-cita yang
+              menuntun gerakan tersebut.
+            </p>
+          </div>
+
+          <div class="three-columns pillar-list">
+            <article class="pillar reveal">
+              <span class="pillar-number">01</span>
+              <div class="pillar-icon" aria-hidden="true">↗</div>
+              <h3>Pendidikan</h3>
+              <p>
+                Mengembangkan manusia yang beriman, berilmu, berakhlak, dan
+                mampu menjawab kebutuhan masyarakat.
+              </p>
+              <div class="pillar-footer">Membuka akses pada ilmu</div>
+            </article>
+            <article class="pillar reveal">
+              <span class="pillar-number">02</span>
+              <div class="pillar-icon pillar-icon-cyan" aria-hidden="true">
+                ＋
+              </div>
+              <h3>Kesehatan</h3>
+              <p>
+                Menghadirkan layanan kesehatan dan menempatkan kepedulian
+                terhadap kehidupan sebagai bagian dari pengabdian.
+              </p>
+              <div class="pillar-footer">Merawat martabat manusia</div>
+            </article>
+            <article class="pillar reveal">
+              <span class="pillar-number">03</span>
+              <div class="pillar-icon pillar-icon-gold" aria-hidden="true">
+                ♡
+              </div>
+              <h3>Pelayanan sosial</h3>
+              <p>
+                Menumbuhkan solidaritas, membantu kelompok yang membutuhkan, dan
+                memperjuangkan kesejahteraan bersama.
+              </p>
+              <div class="pillar-footer">Mengubah kepedulian jadi aksi</div>
+            </article>
+          </div>
+
+          <div class="editorial-callout reveal">
+            <div class="callout-mark" aria-hidden="true">“</div>
+            <div>
+              <p class="callout-kicker">Mengapa MKCHM penting?</p>
+              <h3>Menjaga agar gerakan tidak kehilangan orientasi.</h3>
+              <p>
+                MKCHM memuat keyakinan dan cita-cita hidup Muhammadiyah. Ia
+                menjadi salah satu rujukan untuk menghubungkan nilai Islam,
+                keputusan organisasi, dan kerja nyata di tengah masyarakat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 / VISI BERKEMAJUAN -->
+      <section class="section section-white" id="visi">
+        <div class="section-wrap">
+          <div class="vision-layout">
+            <div class="section-heading reveal">
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span> 02 — Visi berkemajuan
+              </p>
+              <h2>Teguh pada prinsip, terbuka pada <em>kemajuan.</em></h2>
+              <p class="section-intro">
+                Berkemajuan bukan berarti meninggalkan ajaran Islam. Artinya,
+                nilai agama menjadi pijakan untuk berpikir, belajar, memperbarui
+                cara kerja, dan memberi jawaban yang bermanfaat bagi kehidupan.
+              </p>
+              <div class="side-note">
+                <span class="side-note-rule"></span>
+                <p>“Nilai memberi arah; ilmu membantu kita menemukan cara.”</p>
+              </div>
+            </div>
+
+            <div class="principle-list">
+              <article class="principle reveal">
+                <span class="principle-number">01</span>
+                <div>
+                  <h3>Tauhid sebagai fondasi</h3>
+                  <p>
+                    Keyakinan kepada Allah menjadi dasar dalam beribadah,
+                    membentuk akhlak, dan menjalani tanggung jawab sosial.
+                  </p>
+                  <span class="principle-tag">Keyakinan → orientasi hidup</span>
+                </div>
+              </article>
+              <article class="principle reveal">
+                <span class="principle-number">02</span>
+                <div>
+                  <h3>Ilmu dan teknologi</h3>
+                  <p>
+                    Ilmu agama dan pengetahuan umum dapat saling melengkapi.
+                    Teknologi digunakan untuk memecahkan masalah dan memperluas
+                    manfaat.
+                  </p>
+                  <span class="principle-tag">Ilmu → inovasi → manfaat</span>
+                </div>
+              </article>
+              <article class="principle reveal">
+                <span class="principle-number">03</span>
+                <div>
+                  <h3>Tajdid dan sikap kritis</h3>
+                  <p>
+                    Mengkaji persoalan dengan merujuk pada ajaran Islam,
+                    menggunakan akal sehat, dan tidak menerima pendapat secara
+                    membuta.
+                  </p>
+                  <span class="principle-tag"
+                    >Kajian → pertimbangan → tindakan</span
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="principle-bottom reveal">
+            <span class="principle-bottom-mark">Intinya</span>
+            <p>
+              Kemajuan diukur bukan hanya dari kecanggihan, tetapi juga dari
+              akhlak, keadilan, dan manfaat yang dirasakan manusia.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 / SEJARAH -->
+      <section class="section section-paper" id="sejarah">
+        <div class="section-wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span> 03 — Sejarah dan tokoh
+            </p>
+            <h2>Memahami konteks lahirnya <em>pedoman gerakan.</em></h2>
+            <p class="section-intro">
+              Pada awal 1960-an, perubahan sosial-politik dan kebutuhan internal
+              organisasi mendorong Muhammadiyah memperjelas identitas serta arah
+              perjuangannya. Dua istilah yang perlu dibedakan adalah Kepribadian
+              Muhammadiyah dan MKCHM.
+            </p>
+          </div>
+
+          <div class="context-grid">
+            <article class="context-block reveal">
+              <span class="context-label">Faktor eksternal · 1961–1962</span>
+              <h3>Dinamika sosial dan politik</h3>
+              <p>
+                Indonesia mengalami persaingan gagasan dan perubahan politik
+                yang kuat. Konteks ini membuat organisasi perlu mempertegas
+                sikap dan identitasnya di tengah masyarakat.
+              </p>
+            </article>
+            <article class="context-block context-block-blue reveal">
+              <span class="context-label">Faktor internal · 1961–1962</span>
+              <h3>Kebutuhan menegaskan jati diri</h3>
+              <p>
+                Muhammadiyah membutuhkan pedoman yang membantu anggotanya
+                memahami karakter gerakan, menjaga konsistensi nilai, dan
+                menentukan cara bertindak.
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline-heading reveal">
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span> Linimasa ringkas
+            </p>
+            <h3>Dari penegasan kepribadian menuju rumusan MKCHM</h3>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">
+                <strong>1962</strong><span>Muktamar ke-35</span>
+              </div>
+              <div class="timeline-copy">
+                <h4>Kepribadian Muhammadiyah</h4>
+                <p>
+                  Muktamar ke-35 di Jakarta menjadi momentum penting bagi
+                  penegasan Kepribadian Muhammadiyah. Gagasan ini berkaitan
+                  dengan pemikiran K.H. Faqih Usman tentang karakter dan cara
+                  Muhammadiyah menjalankan gerakannya.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">
+                <strong>1969</strong><span>Tanwir Ponorogo</span>
+              </div>
+              <div class="timeline-copy">
+                <h4>Perumusan MKCHM</h4>
+                <p>
+                  Matan Keyakinan dan Cita-Cita Hidup Muhammadiyah dirumuskan
+                  dalam perkembangan pembahasan Tanwir di Ponorogo. Rumusan dan
+                  penjelasannya kemudian mengalami penyempurnaan dalam
+                  perjalanan organisasi.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">
+                <strong>Berlanjut</strong><span>Pengamalan</span>
+              </div>
+              <div class="timeline-copy">
+                <h4>Pedoman dalam kehidupan persyarikatan</h4>
+                <p>
+                  Pedoman tersebut menjadi bahan orientasi bagi dakwah,
+                  pengembangan organisasi, pembentukan karakter, dan pengabdian
+                  Muhammadiyah kepada masyarakat.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="people-grid">
+            <article class="person reveal">
+              <div class="person-monogram" aria-hidden="true">FU</div>
+              <div>
+                <p class="person-role">Tokoh Muhammadiyah</p>
+                <h3>K.H. Faqih Usman</h3>
+                <p>
+                  Dikenal berperan penting dalam gagasan Kepribadian
+                  Muhammadiyah. Pemikirannya mendorong warga untuk memahami
+                  identitas gerakan dan menerjemahkannya dalam sikap serta
+                  tindakan.
+                </p>
+              </div>
+            </article>
+            <article class="person reveal">
+              <div
+                class="person-monogram person-monogram-gold"
+                aria-hidden="true"
+              >
+                BH
+              </div>
+              <div>
+                <p class="person-role">Ulama dan pemikir</p>
+                <h3>Buya Hamka</h3>
+                <p>
+                  Ulama, sastrawan, dan tokoh Muhammadiyah yang memberi teladan
+                  tentang keluasan ilmu, dakwah, dan pemikiran Islam. Peran
+                  spesifik beliau dalam perumusan dokumen perlu dibedakan dari
+                  kontribusi tokoh perumus utama.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="history-note reveal">
+            <strong>Catatan akademik</strong>
+            <p>
+              Kepribadian Muhammadiyah dan MKCHM berkaitan, tetapi bukan dokumen
+              yang sama. Gunakan buku AIK atau sumber resmi yang ditetapkan
+              dosen untuk memastikan kronologi, kutipan, dan detail pengesahan
+              sebelum presentasi.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 05 / ERA DIGITAL -->
+      <section class="section section-white" id="digital">
+        <div class="section-wrap">
+          <div class="digital-intro">
+            <div class="section-heading reveal">
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span> 04 — Relevansi era digital
+              </p>
+              <h2>
+                Nilai tetap teguh. <em>Cara berkontribusi berkembang.</em>
+              </h2>
+            </div>
+            <p class="digital-intro-copy reveal">
+              Teknologi mengubah cara kita belajar, bekerja, dan berbagi
+              informasi. Prinsip Islam dapat diwujudkan melalui kebiasaan
+              digital yang kritis, beretika, dan berguna bagi orang lain.
+            </p>
+          </div>
+
+          <div class="digital-feature reveal">
+            <div class="digital-feature-number">D / 04</div>
+            <div class="digital-feature-copy">
+              <p class="context-label">Gagasan utama</p>
+              <h3>Teknologi adalah sarana, bukan tujuan akhir.</h3>
+              <p>
+                Manfaat teknologi bergantung pada cara kita menggunakannya. Ia
+                dapat memperluas akses ilmu, membantu layanan sosial, dan
+                menyebarkan dakwah—jika disertai tanggung jawab.
+              </p>
+            </div>
+          </div>
+
+          <div class="digital-grid">
+            <article class="digital-item reveal">
+              <span>01</span>
+              <h3>Literasi informasi</h3>
+              <p>
+                Periksa sumber, konteks, dan kebenaran informasi sebelum
+                meneruskannya.
+              </p>
+            </article>
+            <article class="digital-item reveal">
+              <span>02</span>
+              <h3>Dakwah digital</h3>
+              <p>
+                Sampaikan pesan dengan bahasa yang santun, jelas, dan sesuai
+                kebutuhan audiens.
+              </p>
+            </article>
+            <article class="digital-item reveal">
+              <span>03</span>
+              <h3>Etika bermedia</h3>
+              <p>
+                Hormati privasi, hindari fitnah dan perundungan, serta jaga adab
+                ketika berbeda pendapat.
+              </p>
+            </article>
+            <article class="digital-item reveal">
+              <span>04</span>
+              <h3>Inovasi sosial</h3>
+              <p>
+                Gunakan keahlian teknologi untuk membantu pendidikan, kesehatan,
+                dan pelayanan masyarakat.
+              </p>
+            </article>
+          </div>
+
+          <div class="student-example reveal">
+            <div>
+              <p class="context-label">Contoh bagi mahasiswa</p>
+              <h3>Mulai dari pilihan kecil sehari-hari.</h3>
+            </div>
+            <ul>
+              <li>
+                Memverifikasi informasi keagamaan sebelum membagikannya di grup
+                kelas.
+              </li>
+              <li>
+                Menggunakan kemampuan akademik dan teknologi untuk menjawab
+                masalah di sekitar.
+              </li>
+              <li>
+                Berdiskusi secara kritis tanpa merendahkan orang yang memiliki
+                pandangan berbeda.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 / KESIMPULAN -->
+      <section class="section conclusion" id="kesimpulan">
+        <div class="section-wrap">
+          <div class="conclusion-heading reveal">
+            <p class="eyebrow eyebrow-light">
+              <span class="eyebrow-line"></span> 05 — Kesimpulan
+            </p>
+            <h2>
+              Memahami nilai. Menentukan arah. <em>Menghadirkan manfaat.</em>
+            </h2>
+            <p>
+              MKCHM dan Kepribadian Muhammadiyah membantu menjelaskan landasan,
+              identitas, serta arah perjuangan. Keduanya menjadi bermakna ketika
+              diwujudkan melalui ilmu, akhlak, pelayanan, dan tindakan nyata.
+            </p>
+          </div>
+
+          <div class="conclusion-points reveal">
+            <div>
+              <span>01</span>
+              <p>
+                <strong>Landasan</strong> — memahami nilai dan keyakinan sebagai
+                dasar kehidupan.
+              </p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>
+                <strong>Pedoman</strong> — menjaga konsistensi gerakan di tengah
+                perubahan zaman.
+              </p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>
+                <strong>Pengamalan</strong> — menghadirkan manfaat bagi
+                masyarakat melalui akhlak dan tindakan.
+              </p>
+            </div>
+          </div>
+
+          <div class="closing-line reveal">
+            <span class="closing-rule"></span>
+            <p>
+              Berpegang pada nilai, berpikir terbuka, dan bergerak untuk
+              kemaslahatan.
+            </p>
+            <span class="closing-thanks"
+              >Terima kasih atas perhatian Anda.</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="#hero">AIK<span>/</span>06</a>
+        <p>
+          Al-Islam dan Kemuhammadiyahan · Kelompok 6<br /><span
+            >Universitas Muhammadiyah Gresik</span
+          >
+        </p>
+        <a class="back-to-top" href="#hero">Kembali ke atas ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
